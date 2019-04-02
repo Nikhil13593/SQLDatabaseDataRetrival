@@ -1,0 +1,6 @@
+framework module Pods_SQLDatabaseDataRetrival {
+  umbrella header "Pods-SQLDatabaseDataRetrival-umbrella.h"
+
+  export *
+  module * { export * }
+}

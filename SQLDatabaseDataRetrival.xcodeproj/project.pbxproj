@@ -7,14 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BF73F4A1380ED57462D04046 /* Pods_SQLDatabaseDataRetrival.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9F9C7FE5BC68BFB07EBF05F /* Pods_SQLDatabaseDataRetrival.framework */; };
 		CC1DA6382240A9EF00015AAC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC1DA6372240A9EF00015AAC /* AppDelegate.swift */; };
 		CC1DA63A2240A9EF00015AAC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC1DA6392240A9EF00015AAC /* ViewController.swift */; };
 		CC1DA63D2240A9EF00015AAC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC1DA63B2240A9EF00015AAC /* Main.storyboard */; };
 		CC1DA63F2240A9F000015AAC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC1DA63E2240A9F000015AAC /* Assets.xcassets */; };
 		CC1DA6422240A9F000015AAC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC1DA6402240A9F000015AAC /* LaunchScreen.storyboard */; };
+		CC1DA64A2240AA4600015AAC /* RegistrationFormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC1DA6492240AA4600015AAC /* RegistrationFormViewController.swift */; };
+		CC1DA64C2240AADF00015AAC /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC1DA64B2240AADF00015AAC /* TableViewCell.swift */; };
+		CC1DA64E2240AB1B00015AAC /* Details.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC1DA64D2240AB1B00015AAC /* Details.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1DAC8B413E243EF727CE3978 /* Pods-SQLDatabaseDataRetrival.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SQLDatabaseDataRetrival.release.xcconfig"; path = "Pods/Target Support Files/Pods-SQLDatabaseDataRetrival/Pods-SQLDatabaseDataRetrival.release.xcconfig"; sourceTree = "<group>"; };
+		21C1710EFDFFE0FEBBB28F16 /* Pods-SQLDatabaseDataRetrival.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SQLDatabaseDataRetrival.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SQLDatabaseDataRetrival/Pods-SQLDatabaseDataRetrival.debug.xcconfig"; sourceTree = "<group>"; };
 		CC1DA6342240A9EF00015AAC /* SQLDatabaseDataRetrival.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SQLDatabaseDataRetrival.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC1DA6372240A9EF00015AAC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CC1DA6392240A9EF00015AAC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +28,10 @@
 		CC1DA63E2240A9F000015AAC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CC1DA6412240A9F000015AAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CC1DA6432240A9F000015AAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC1DA6492240AA4600015AAC /* RegistrationFormViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationFormViewController.swift; sourceTree = "<group>"; };
+		CC1DA64B2240AADF00015AAC /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		CC1DA64D2240AB1B00015AAC /* Details.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Details.swift; sourceTree = "<group>"; };
+		D9F9C7FE5BC68BFB07EBF05F /* Pods_SQLDatabaseDataRetrival.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SQLDatabaseDataRetrival.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +39,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF73F4A1380ED57462D04046 /* Pods_SQLDatabaseDataRetrival.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		167FDA0DFE2D3351F3F4B182 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D9F9C7FE5BC68BFB07EBF05F /* Pods_SQLDatabaseDataRetrival.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7ABEB1C8DE91CFB4A1588414 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				21C1710EFDFFE0FEBBB28F16 /* Pods-SQLDatabaseDataRetrival.debug.xcconfig */,
+				1DAC8B413E243EF727CE3978 /* Pods-SQLDatabaseDataRetrival.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		CC1DA62B2240A9EF00015AAC = {
 			isa = PBXGroup;
 			children = (
 				CC1DA6362240A9EF00015AAC /* SQLDatabaseDataRetrival */,
 				CC1DA6352240A9EF00015AAC /* Products */,
+				7ABEB1C8DE91CFB4A1588414 /* Pods */,
+				167FDA0DFE2D3351F3F4B182 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,6 +86,9 @@
 			children = (
 				CC1DA6372240A9EF00015AAC /* AppDelegate.swift */,
 				CC1DA6392240A9EF00015AAC /* ViewController.swift */,
+				CC1DA6492240AA4600015AAC /* RegistrationFormViewController.swift */,
+				CC1DA64B2240AADF00015AAC /* TableViewCell.swift */,
+				CC1DA64D2240AB1B00015AAC /* Details.swift */,
 				CC1DA63B2240A9EF00015AAC /* Main.storyboard */,
 				CC1DA63E2240A9F000015AAC /* Assets.xcassets */,
 				CC1DA6402240A9F000015AAC /* LaunchScreen.storyboard */,
@@ -71,9 +104,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CC1DA6462240A9F000015AAC /* Build configuration list for PBXNativeTarget "SQLDatabaseDataRetrival" */;
 			buildPhases = (
+				726746A260D27525A3B81DB5 /* [CP] Check Pods Manifest.lock */,
 				CC1DA6302240A9EF00015AAC /* Sources */,
 				CC1DA6312240A9EF00015AAC /* Frameworks */,
 				CC1DA6322240A9EF00015AAC /* Resources */,
+				FFE1FC816D1B411DEF887CA7 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -130,12 +165,62 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		726746A260D27525A3B81DB5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SQLDatabaseDataRetrival-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FFE1FC816D1B411DEF887CA7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SQLDatabaseDataRetrival/Pods-SQLDatabaseDataRetrival-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SQLite.swift/SQLite.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SQLite.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SQLDatabaseDataRetrival/Pods-SQLDatabaseDataRetrival-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		CC1DA6302240A9EF00015AAC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				CC1DA63A2240A9EF00015AAC /* ViewController.swift in Sources */,
+				CC1DA64E2240AB1B00015AAC /* Details.swift in Sources */,
+				CC1DA64C2240AADF00015AAC /* TableViewCell.swift in Sources */,
+				CC1DA64A2240AA4600015AAC /* RegistrationFormViewController.swift in Sources */,
 				CC1DA6382240A9EF00015AAC /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -280,6 +365,7 @@
 		};
 		CC1DA6472240A9F000015AAC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 21C1710EFDFFE0FEBBB28F16 /* Pods-SQLDatabaseDataRetrival.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -297,6 +383,7 @@
 		};
 		CC1DA6482240A9F000015AAC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1DAC8B413E243EF727CE3978 /* Pods-SQLDatabaseDataRetrival.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
